@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Frontend_Tim.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Frontend_Tim"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
+    <TabBar>
+        <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage"
+            Title="Semesters"/>
+
+        <ShellContent
+        ContentTemplate="{DataTemplate local:SavedExams}"
+        Route="SavedExams"
+            Title="Gespeicherte Tests"/>
+
+        <ShellContent
+        ContentTemplate="{DataTemplate local:Friends}"
+        Route="SavedExams"
+            Title="Friends"/>
+    </TabBar>
+    
+
+</Shell>

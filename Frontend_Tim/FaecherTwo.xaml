@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend_Tim.FaecherTwo">
+
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Semester">
+        </MenuBarItem>
+        <MenuBarItem Text="Gespeicherte Teste">
+        </MenuBarItem>
+        <MenuBarItem Text="Freunde">
+        </MenuBarItem>
+        <MenuBarItem Text="Account">
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            Background= "#003554">
+
+            <Image
+                Source="managrades_logo.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+
+            <Button 
+                    Text="1. Semester 2021/2022!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Yellow"
+                    WidthRequest="700"
+                 />
+
+            <Button 
+                    Text="Chemie!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                BackgroundColor="Red"
+                    WidthRequest="700"
+                 />
+
+            <Button 
+                    Text="Englisch"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Red"
+                    WidthRequest="700"
+                 />
+
+            <Button 
+                    Text="Deutsch"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Yellow"
+                    WidthRequest="700"
+                     />
+
+            <Button 
+                Text="Füge ein Fach hinzu"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

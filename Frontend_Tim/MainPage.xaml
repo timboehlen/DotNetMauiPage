@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend_Tim.MainPage"
+             Title="Home">
+
+    <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            Background= "#003554">
+
+        <Image
+                Source="managrades_logo.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+
+        <Button 
+                    Text="1. Semester 2021/2022!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"               
+                    WidthRequest="700"
+                    Clicked="Button_Clicked"
+                 />
+
+        <Button 
+                    Text="2. Semester 2021/2022!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="700"
+                    Clicked="Button_Clicked2"
+                 />
+
+        <Button 
+                    Text="1. Semester 2022/2023!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="700"
+                 />
+
+        <Button 
+                    Text="2. Semester 2022/2023!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="700"
+                     />
+
+        <Button 
+                Text="Füge ein Neues Semester ein"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="AddSemester"
+
+                />
+
+    </VerticalStackLayout>
+</ContentPage>
